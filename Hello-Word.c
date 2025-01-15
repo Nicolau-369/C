@@ -2,12 +2,12 @@
 #include <stdlib.h>
 int main() {
     /*
-     A função printf()
-     serve para
-     escrever na tela
+     The printf() function
+     is used to
+     write to the screen
    */
     printf("Hello word \n");
-    //faz uma pausa no programa
+    // pause the program
     system("pause");
     return 0;
 }
