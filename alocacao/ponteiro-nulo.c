@@ -7,10 +7,10 @@ int main(){
         p[i] = i+1;
     }
     for (i = 0; i < 5; i++){
-        printf(“%d\n”,p[i]);
+        printf("%d\n",p[i]);
     }
-    //libera a memória alocada
+    // frees the allocated memory
     p = (int *) realloc(p,0);
-    system(“pause”);
+    system("pause");
     return 0;
 }
