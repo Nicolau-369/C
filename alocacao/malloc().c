@@ -5,10 +5,10 @@ int main(){
     p = (int *) malloc(5*sizeof(int));
     int i;
     for (i=0; i<5; i++){
-        printf(“Digite o valor da posicao %d: ”,i);
-        scanf(“%d”,&p[i]);
+        printf("Enter the position value %d: ",i);
+        scanf("%d",&p[i]);
     }
 
-    system(“pause”);
+    system("pause");
     return 0;
 }
