@@ -4,20 +4,20 @@ int main(){
     int *p,i;
     p = (int *) malloc(50*sizeof(int));
     if(p == NULL){
-        printf(“Erro: Memoria Insuficiente!\n”);
-        system(“pause”);
+        printf("Error: Not Enough Memory!\n");
+        system("pause");
         exit(1);
     }
     for (i = 0; i < 50; i++){
         p[i] = i+1;
     }
-    //libera a memória alocada
+    // frees the allocated memory
     free(p);
-    //tenta imprimir o array
-    //cuja memória foi liberada
+    // try to print the array
+    // whose memory has been released
     for (i = 0; i < 50; i++){
-        printf(“%d\n”,p[i]);
+        printf("%d\n",p[i]);
     }
-    system(“pause”);
+    system("pause");
     return 0;
-    }
+}
