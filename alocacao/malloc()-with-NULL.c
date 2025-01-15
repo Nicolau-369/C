@@ -2,11 +2,11 @@
 #include <stdlib.h>
 int main(){
     char*p;
-    //aloca espaço para 1.000 chars
+    // allocates space for 1,000 chars
     p = (char *) malloc(1000);
     int *p;
-    //aloca espaço para 250 inteiros
+    // allocates space for 250 integers
     p = (int *) malloc(1000);
-    system(“pause”);
+    system("pause");
     return 0;
 }
