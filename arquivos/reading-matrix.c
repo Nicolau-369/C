@@ -2,19 +2,19 @@
 #include <stdlib.h>
 int main(){
     FILE *arq;
-    arq = fopen(“matriz.txt”,“r”);
+    arq = fopen("matrix.txt","r");
     if(arq == NULL){
-        printf(“Erro\n”);
-        system(“pause”);
+        printf("Error\n");
+        system("pause");
         exit(1);
     }
     int v,soma=0;
     while(!feof(arq)){
-        fscanf(arq,”%d”,&v);
+        fscanf(arq,"%d",&v);
         soma += v;
     }
-    printf(“Soma = %d\n”,soma);
+    printf("Sum = %d\n",sum);
     fclose(arq);
-    system(“pause”);
+    system("pause");
     return 0;
 }
