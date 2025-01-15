@@ -3,26 +3,26 @@
 #include <string.h>
 int main(){
     FILE *arq;
-    arq = fopen(“ArqGrav.txt”,“wb”);
+    arq = fopen("ArqGrav.txt","wb");
     if(arq == NULL){
-        printf(“Problemas na CRIACAO do arquivo\n”);
+        printf("Problems OPENING the file\n);
         system(“pause”);
         exit(1);
     }
-    char str[20] = “Hello World!”;
+    char str[20] = "Hello World!";
     float x = 5;
     int v[5] = {1,2,3,4,5};
-    //grava a string toda no arquivo
+    // write the entire string to the file
     fwrite(str,sizeof(char),strlen(str),arq);
-    //grava apenas os 5 primeiros caracteres da string
+    // writes only the first 5 characters of the string
     fwrite(str,sizeof(char),5,arq);
-    //grava o valor de x no arquivo
+    // write the value of x to the file
     fwrite(&x,sizeof(float),1,arq);
-    //grava todo o array no arquivo (5 posições)
+    // writes the entire array to the file (5 positions)
     fwrite(v,sizeof(int),5,arq);
-    //grava apenas as 2 primeiras posições do array
+    // writes only the first 2 positions of the array
     fwrite(v,sizeof(int),2,arq);
     fclose(arq);
-    system(“pause”);
+    system("pause");
     return 0;
 }
