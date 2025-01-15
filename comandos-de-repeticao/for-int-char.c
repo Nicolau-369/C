@@ -2,9 +2,9 @@
 #include <stdlib.h>
 int main(){
     char c;
-    for (c = ‘A’; c <= ‘Z’; c++){
-        printf(“Letra = %c\n”,c);
+    for (c = 'A'; c <= 'Z'; c++){
+        printf("Letter = %c\n",c);
     }
-    system(“pause”);
+    system("pause");
     return 0;
 }
