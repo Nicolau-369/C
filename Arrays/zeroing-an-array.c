@@ -6,6 +6,6 @@ int main(){
     for (i = 0; i < 5; i++){
     vet[i] = 0;
     }
-    system(“pause”);
+    system("pause");
     return 0;
 }
