@@ -4,16 +4,15 @@ int main(){
     int *p;
     p = (int *) malloc(5*sizeof(int));
     if(p == NULL){
-        printf(“Erro: Memoria Insuficiente!\n”);
-        system(“pause”);
+        printf("Error: Not Enough Memory!\n");
+        system("pause");
         exit(1);
     }
     int i;
     for (i=0; i<5; i++){
-        printf(“Digite o valor da posicao %d: ”,i);
-        scanf(“%d”,&p[i]);
+        printf("Enter the position value %d: ",i);
+        scanf("%d",&p[i]);
     }
-
-    system(“pause”);
+    system("pause");
     return 0;
 }
