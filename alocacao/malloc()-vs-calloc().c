@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
-    //alocação com malloc
+    // allocation with malloc
     int *p;
     p = (int *) malloc(50*sizeof(int));
     if(p == NULL){
-        printf(“Erro: Memoria Insuficiente!\n”);
+        printf("Error: Insufficient Memory!\n");
     }
-    //alocação com calloc
+    // allocation with calloc
     int *p1;
     p1 = (int *) calloc(50,sizeof(int));
     if(p1 == NULL){
-        printf(“Erro: Memoria Insuficiente!\n”);
+        printf("Error: Insufficient Memory!\n");
     }
-    system(“pause”);
+    system("pause");
     return 0;
 }
