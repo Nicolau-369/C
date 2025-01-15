@@ -7,6 +7,6 @@ int main(){
     vet[2] = 9;
     vet[3] = 1;
     vet[4] = 35;
-    system(“pause”);
+    system("pause");
     return 0;
 }
