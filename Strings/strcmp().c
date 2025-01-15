@@ -2,14 +2,14 @@
 #include <stdlib.h>
 int main(){
     char str1[100], str2[100];
-    printf(“Entre com uma string: ”);
+    printf("Enter a string: ");
     gets(str1);
-    printf(“Entre com outra string: ”);
+    printf("Enter another string: ");
     gets(str2);
     if(strcmp(str1,str2) == 0)
-        printf(“Strings iguais\n”);
+        printf("Strings equal\n");
     else
-        printf(“Strings diferentes\n”);
-    system(“pause”);
+        printf("Strings different\n");
+    system("pause");
     return 0;
 }
