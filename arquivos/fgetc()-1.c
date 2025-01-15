@@ -3,15 +3,15 @@
 int main(){
     FILE *arq;
     char c;
-    arq = fopen(“arquivo.txt”,“r”);
+    arq = fopen("arquivo.txt","r");
     if(arq == NULL){
-        printf(“Erro na abertura do arquivo”);
-        system(“pause”);
+        printf("Error opening file");
+        system("pause");
         exit(1);
     }
     while((c = fgetc(arq)) != EOF)
-        printf(“%c”,c);
+        printf("%c",c);
     fclose(arq);
-    system(“pause”);
+    system("pause");
     return 0;
 }
