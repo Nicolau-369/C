@@ -2,12 +2,12 @@
 #include <stdlib.h>
 int main(){
     FILE *arq;
-    arq = fopen(“NaoExiste.txt”,“r”);
+    arq = fopen("DoesNotExist.txt","r");
     if(arq == NULL)
-        perror(“O seguinte erro ocorreu”);
+        perror("The following error occurred");
     else
         fclose(arq);
     
-    system(“pause”);
+    system("pause");
     return 0;
 }
