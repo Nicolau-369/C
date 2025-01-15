@@ -1,9 +1,9 @@
-// Leitura de caracteres
+// Character reading
 char ch;
 setbuf(stdin, NULL);
 scanf(“%c”, &ch);
 
-// Leitura de strings
+// Reading strings
 char str[10];
 setbuf(stdin, NULL);
 gets(str);
