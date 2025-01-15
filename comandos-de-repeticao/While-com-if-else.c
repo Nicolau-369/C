@@ -3,9 +3,9 @@
 int main(){
     int i = 0;
     do{
-        printf(“Valor %d\n”,i);
+        printf("Value %d\n",i);
         i++;
-    }while(i < 10);//Esse ponto e vírgula é necessário!
-    system(“pause”);
+    }while(i < 10);// That semicolon is necessary!
+    system("pause");
     return 0;
 }
