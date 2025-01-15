@@ -7,20 +7,20 @@ int main(){
     p[i] = i+1;
     }
     for (i = 0; i < 5; i++){
-        printf(“%d\n”,p[i]);
+        printf("%d\n",p[i]);
     }
-    printf(“\n”);
-    //Diminui o tamanho do array
+    printf("\n");
+    // Decrease the size of the array
     p = realloc(p,3*sizeof(int));
     for (i = 0; i < 3; i++){
-        printf(“%d\n”,p[i]);
+        printf("%d\n",p[i]);
     }
-    printf(“\n”);
-    //Aumenta o tamanho do array
+    printf("\n");
+    // Increase the size of the array
     p = realloc(p,10*sizeof(int));
     for (i = 0; i < 10; i++){
-        printf(“%d\n”,p[i]);
+        printf("%d\n",p[i]);
     }
-    system(“pause”);
+    system("pause");
     return 0;
 }
