@@ -7,6 +7,6 @@ int main(){
     z = y/10;
     printf("z = %d\n",z);
     printf("x+y = %d\n",x+y);
-    system("pause");
+    system('pause');
     return 0;
 }
