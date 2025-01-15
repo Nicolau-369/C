@@ -5,10 +5,10 @@ int main(){
     int i,j;
     for (i = 0; i < 100; i++){
         for (j = 0; j < 50; j++){
-            printf(“Digite o valor de mat[%d][%d]: ”,i,j);
-            scanf(“%d”,&mat[i][j]);
+            printf("Enter the value of mat[%d][%d]: ",i,j);
+            scanf("%d",&mat[i][j]);
         }
     }
-    system(“pause”);
+    system("pause");
     return 0;
 }
