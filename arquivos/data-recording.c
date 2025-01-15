@@ -5,19 +5,19 @@ int main(){
     FILE *arq;
     char string[100];
     int i;
-    arq = fopen(“arquivo.txt”,“w”);
+    arq = fopen("archive.txt","w");
     if(arq == NULL){
-        printf(“Erro na abertura do arquivo”);
-        system(“pause”);
+        printf("Error opening file");
+        system("pause");
         exit(1);
     }
-    printf(“Entre com a string a ser gravada no arquivo:”);
+    printf("Enter the string to be written to the file:");
     gets(string);
     for(i = 0; i < strlen(string); i++)
         fputc(string[i], arq);
 
     fflush(arq);
     fclose(arq);
-    system(“pause”);
+    system("pause");
     return 0;
 }
