@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
-struct ponto{
+struct point{
     int x,y;
 };
 int main(){
-    printf(“Tamanho char: %d\n”,sizeof(char));
-    printf(“Tamanho int: %d\n”,sizeof(int));
-    printf(“Tamanho float: %d\n”,sizeof(float));
-    printf(“Tamanho double: %d\n”,sizeof(double));
-    printf(“Tamanho struct ponto: %d\n”,sizeof(struct ponto));
+    printf("Size char: %d\n",sizeof(char));
+    printf("Size int: %d\n",sizeof(int));
+    printf("Size float: %d\n",sizeof(float));
+    printf("Size double: %d\n",sizeof(double));
+    printf("Size struct point: %d\n",sizeof(struct point));
     int x;
     double y;
-    printf(“Tamanho da variavel x: %d\n”,sizeof x);
-    printf(“Tamanho da variavel y: %d\n”,sizeof y);
-    system(“pause”);
+    printf("Variable size x: %d\n",sizeof x);
+    printf("Variable size y: %d\n",sizeof y);
+    system("pause");
     return 0;
 }
