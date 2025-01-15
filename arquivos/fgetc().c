@@ -3,18 +3,18 @@
 int main(){
     FILE *arq;
     char c;
-    arq = fopen(“arquivo.txt”,“r”);
+    arq = fopen("arquivo.txt","r");
     if(arq == NULL){
-        printf(“Erro na abertura do arquivo”);
-        system(“pause”);
+        printf("Error opening file");
+        system("pause");
         exit(1);
     }
     int i;
     for(i = 0; i < 5; i++){
         c = fgetc(arq);
-        printf(“%c”,c);
+        printf("%c",c);
     }
     fclose(arq);
-    system(“pause”);
+    system("pause");
     return 0;
 }
