@@ -2,7 +2,7 @@
 struct register{
     char name[50];
     int age;
-    char adress[50];
+    char address[50];
     int number;
 };
 
@@ -10,7 +10,7 @@ struct register{
 struct register{
     char name[50];
     int age;
-    char adress[50];
+    char address[50];
     int number;
 };
 
