@@ -6,13 +6,13 @@ int main(){
     for (i=1;i<5;i++){
         for (j=1; j<5; j++){
             if(i==j)
-                printf(“1 ”);
+                printf("1 ");
             else
-                printf(“0 ”);
+                printf("0 ");
         }
-        printf(“\n”);
+        printf("\n");
     }
-    system(“pause”);
+    system("pause");
     return 0;
 }
 
@@ -25,14 +25,14 @@ int main(){
         j = 1;
         while(j<5){
             if(i==j)
-                printf(“1 ”);
+                printf("1 ");
             else
-                printf(“0 ”);
+                printf("0 ");
             j++;
         }
-        printf(“\n”);
+        printf("\n");
         i++;
     }
-    system(“pause”);
+    system("pause");
     return 0;
 }
