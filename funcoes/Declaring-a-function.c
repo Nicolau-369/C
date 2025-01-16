@@ -7,10 +7,10 @@ int Square (int a){
 
 int main(){
     int n1,n2;
-    printf(“Entre com um numero: ”);
-    scanf(“%d”, &n1);
+    printf("Enter a number: ");
+    scanf("%d", &n1);
     n2 = Square(n1);
-    printf(“O seu quadrado vale: %d\n”, n2);
-    system(“pause”);
+    printf("Its square is worth: %d\n", n2);
+    system("pause");
     return 0;
 }
