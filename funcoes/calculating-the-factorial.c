@@ -9,7 +9,7 @@ int fatorial (int n){
 int main(){
     int x;
     x = fatorial(4);
-    printf(“4! = %d\n”,x);
-    system(“pause”);
+    printf("4! = %d\n",x);
+    system("pause");
     return 0;
 }
