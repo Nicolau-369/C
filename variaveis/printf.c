@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int main(){
 
-    printf("Esse Texto sera escrito na tela");
+    printf("This text will be written on the screen");
     system("pause");
     return 0;
 }
