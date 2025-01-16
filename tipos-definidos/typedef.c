@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-typedef int inteiro;
+typedef int whole;
 int main(){
     int x = 10;
-    inteiro y = 20;
+    whole y = 20;
     y = y + x;
-    printf(“Soma = %d\n”,y);
-    system(“pause”);
+    printf("Sum = %d\n",y);
+    system("pause");
     return 0;
 }
