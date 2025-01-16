@@ -1,21 +1,21 @@
-// trabalhando com campos de bits
+// working with bit fields
 #include <stdio.h>
 #include <stdlib.h>
 struct status{
-    unsigned int ligado:1;
-    signed int valor:4;
+    unsigned int connected:1;
+    signed int value:4;
     unsigned int :3;
 };
 void check _ status(struct status s){
-    if(s.ligado == 1)
-    printf(“LIGADO\n”);
-    if(s.ligado == 0)
-    printf(“DESLIGADO\n”);
+    if(s.connected == 1)
+    printf("CONNECTED\n");
+    if(s.connected == 0)
+    printf("DISCONNECTED\n");
 }
 int main(){
-    struct status ESTADO;
-    ESTADO.ligado = 1;
-    check _ status(ESTADO);
-    system(“pause”);
+    struct status STATE;
+    STATE.connected = 1;
+    check _ status(STATE);
+    system("pause");
     return 0;
 }
