@@ -3,10 +3,10 @@
 int main(){
     char c = 'a';
     int x = 65;
-    putchar(c);//Escreve o caractere ‘a’
-    putchar('\n');//Muda de linha
-    putchar(x);//Escreve o valor 65 como caractere
-    putchar('\n');//Muda de linha
+    putchar(c);//Writes the character ‘a’
+    putchar('\n');//Change line
+    putchar(x);//Writes the value 65 as a character
+    putchar('\n');//Change line
     system("pause");
     return 0;
 }
