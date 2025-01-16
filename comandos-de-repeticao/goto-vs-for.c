@@ -3,13 +3,13 @@
 #include <stdlib.h>
 int main(){
     int i = 0;
-    inicio:
+    start:
     if(i < 5){
-        printf(“Numero %d\n”,i);
+        printf("Number %d\n",i);
         i++;
-        goto inicio;
+        goto start;
     }
-    system(“pause”);
+    system("pause");
     return 0;
 }
 
@@ -19,8 +19,8 @@ int main(){
 int main(){
     int i;
     for(i = 0; i < 5; i++)
-        printf(“Numero %d\n”,i);
+        printf("Number %d\n",i);
     
-    system(“pause”);
+    system("pause");
     return 0;
 }
