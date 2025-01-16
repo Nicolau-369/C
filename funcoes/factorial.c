@@ -1,13 +1,13 @@
-// Com recursão
-int fatorial (int n){
+// With recursion
+int factorial (int n){
     if(n == 0)
         return 1;
     else
-        return n*fatorial(n-1);
+        return n*factorial(n-1);
 }
 
-// Sem recursão
-int fatorial (int n){
+// No recursion
+int factorial (int n){
     if(n == 0)
         return 1;
     else {
