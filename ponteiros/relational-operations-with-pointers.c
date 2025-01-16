@@ -5,9 +5,9 @@ int main(){
     p = &x;
     p1 = &y;
     if(p == p1)
-        printf(“Ponteiros iguais\n”);
+        printf("Equal pointers\n");
     else
-        printf(“Ponteiros diferentes\n”);
-    system(“pause”);
+        printf("Different pointers\n");
+    system("pause");
     return 0;
 }
