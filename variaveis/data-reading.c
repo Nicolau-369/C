@@ -3,15 +3,15 @@
 int main(){
     int x,z;
     float y;
-    //Leitura de um valor inteiro
+    // Reading an integer value
     scanf("%d",&x);
-    //Leitura de um valor real
+    // Reading a real value
     scanf("%f",&y);
-    //Leitura de um valor inteiro e outro real
+    // Reading an integer and a real value
     scanf("%d%f",&x,&y);
-    //Leitura de dois valores inteiros
+    // Reading two integer values
     scanf("%d%d",&x,&z);
-    //Leitura de dois valores inteiros com espaco
+    // Reading two integer values ​​with spaces
     scanf("%d %d",&x,&z);
     system("pause");
     return 0;
