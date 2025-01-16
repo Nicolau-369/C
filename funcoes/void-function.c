@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-void imprime(int n){
+void print(int n){
     int i;
     for (i=1; i<=n; i++)
-        printf(“Linha %d \n”,i);
+        printf("Line %d \n",i);
 }
 
 int main(){
-    imprime(5);
+    print(5);
 
-    system(“pause”);
+    system("pause");
     return 0;
     }
