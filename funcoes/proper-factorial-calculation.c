@@ -9,12 +9,12 @@ int fatorial (int n){
 }
 
 int main(){
-    printf(“Digite um numero inteiro positivo:”);
+    printf("Enter a positive integer:");
     int x;
-    scanf(“%d”,&x);
+    scanf("%d",&x);
     int fat = fatorial(x);
-    printf(“O fatorial de %d eh: %d\n”,x,fat);
+    printf("The factorial of %d is: %d\n",x,fat);
     
-    system(“pause”);
+    system("pause");
     return 0;
 }
