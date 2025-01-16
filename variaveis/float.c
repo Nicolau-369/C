@@ -2,12 +2,12 @@
 #include <stdlib.h>
 int main(){
     int x = 10;
-    //Escrita de um valor inteiro
+    // Writing an integer value
     printf("%d%f\n",x);
     float y = 5.0;
-    //Escrita de um valor inteiro e outro real
+    // Writing an integer and a real value
     printf("%d%f\n",x,y);
-    //Adicionando espaço entre os valores
+    // Adding space between values
     printf("%d %f\n",x,y);
     system("pause");
     return 0;
