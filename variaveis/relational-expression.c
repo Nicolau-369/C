@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 void func1(){
-    int x;//variavel local
+    int x; //local variable
 }
 void func2(){
-    int x;//variavel local
+    int x; //local variable
 }
 int main(){
     int x;
