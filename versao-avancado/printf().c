@@ -4,15 +4,15 @@ int main(){
     int n = 125;
     float f = 5.25;
     double d = 10.53;
-    char letra = ‘A’;
-    char palavra[10] = “programa”;
-    printf(“Valor inteiro: %d\n”,n);
-    printf(“Valor inteiro: %i\n”,n);
-    printf(“Valor real: %f\n”,f);
-    printf(“Valor real: %f\n”,d);
-    printf(“Caractere: %c\n”,letra);
-    printf(“Valor numerico do caractere: %d\n”,letra);
-    printf(“Palavra: %s\n”,palavra);
-    system(“pause”);
+    char letter = 'A';
+    char word[10] = "program";
+    printf("Value whole: %d\n",n);
+    printf("Value whole: %i\n",n);
+    printf("Value dolar: %f\n",f);
+    printf("Value dolar: %f\n",d);
+    printf("Character: %c\n",letter);
+    printf("Numeric value of the character: %d\n",letter);
+    printf("Word: %s\n”,word);
+    system("pause”);
     return 0;
 }
