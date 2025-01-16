@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
-    int x;//declara a variavel mas nao define o valor
+    int x;//declares the variable but does not define the value
     printf("x = %d\n",x);
-    x = 5;//define o valor de x como sendo 5
+    x = 5;//sets the value of x to be 5
     system("pause");
     return 0;
 }
