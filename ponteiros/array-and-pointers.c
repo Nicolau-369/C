@@ -11,7 +11,7 @@ int main(){
     return 0;
 }
 
-// ponteiro
+// pointers
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
