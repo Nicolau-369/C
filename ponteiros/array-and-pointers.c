@@ -6,8 +6,8 @@ int main(){
     int *p = vet;
     int i;
     for (i = 0;i < 5;i++)
-        printf(“%d\n”,p[i]);
-    system(“pause”);
+        printf("%d\n",p[i]);
+    system("pause");
     return 0;
 }
 
@@ -19,7 +19,7 @@ int main(){
     int *p = vet;
     int i;
     for (i = 0;i < 5;i++)
-        printf(“%d\n”,*(p+i));
-    system(“pause”);
+        printf("%d\n",*(p+i));
+    system("pause");
     return 0;
 }
