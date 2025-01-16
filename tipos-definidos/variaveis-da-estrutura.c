@@ -1,30 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
-struct endereco{
-char rua[50];
-int numero;
+struct address{
+char street[50];
+int number;
 };
-struct cadastro{
-    char nome[50];
-    int idade;
-    struct endereco ender;
+struct register{
+    char name[50];
+    int age;
+    struct address ender;
 };
 int main(){
-    struct cadastro c;
-    //Lê do teclado uma string e armazena no campo nome
-    gets(c.nome);
+    struct register c;
+    //Reads a string from the keyboard and stores it in the name field
+    gets(c.name);
 
-    //Lê do teclado um valor inteiro e armazena no campo idade
-    scanf(“%d”,&c.idade);
+    //Reads an integer value from the keyboard and stores it in the age field
+    scanf("%d",&c.age);
 
-    //Lê do teclado uma string
-    //e armazena no campo rua da variável ender
-    gets(c.ender.rua);
+    //Read a string from the keyboard 
+    //and store it in the street field of the ender variable
+    gets(c.ender.address);
 
-    //Lê do teclado um valor inteiro
-    //e armazena no campo numero da variável ender
-    scanf(“%d”,&c.ender.numero);
+    //Reads an integer value from the keyboard
+    //and stores it in the number field of the ender variable
+    scanf("%d",&c.ender.number);
 
-    system(“pause”);
+    system("pause");
     return 0;
 }
