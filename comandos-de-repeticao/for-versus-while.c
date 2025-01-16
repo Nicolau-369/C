@@ -6,8 +6,8 @@ int main(){
     for(i = 1; i <= 10; i++){
         s = s + i;
     }
-    printf(“Soma = %d \n”,s);
-    system(“pause”);
+    printf("Sum = %d \n",s);
+    system("pause");
     return 0;
 }
 
@@ -21,7 +21,7 @@ int main(){
         s = s + i;
         i++;
     }
-    printf(“Soma = %d \n”,s);
-    system(“pause”);
+    printf("Sum = %d \n",s);
+    system("pause");
     return 0;
 }
