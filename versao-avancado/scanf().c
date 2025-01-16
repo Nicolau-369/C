@@ -4,16 +4,16 @@ int main(){
     int n;
     float f;
     double d;
-    char letra;
-    //leitura de int
-    scanf(“%d”,&n);
-    scanf(“%i”,&n);
-    //leitura de char
-    scanf(“%d”,&letra);
-    scanf(“%c”,&letra);
-    //leitura de float e double
-    scanf(“%f”,&f);
-    scanf(“%f”,&d);
-    system(“pause”);
+    char letter;
+    //int reading
+    scanf("%d",&n);
+    scanf("%i",&n);
+    //char reading
+    scanf("%d",&letter);
+    scanf("%c",&letter);
+    //float & double reading
+    scanf("%f",&f);
+    scanf("%f",&d);
+    system("pause");
     return 0;
 }
