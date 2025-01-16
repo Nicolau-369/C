@@ -6,12 +6,12 @@ int main(){
     int i,j;
     for(i=0;i<2;i++)
     for(j=0;j<2;j++)
-        printf(“%d\n”, mat[i][j]);
+        printf("%d\n", mat[i][j]);
     system(“pause”);
     return 0;
 }
 
-// ponteiro
+// pointers
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
@@ -19,7 +19,7 @@ int main(){
     int * p = &mat[0][0];
     int i;
     for(i=0;i<4;i++)
-        printf(“%d\n”, *(p+i));
-    system(“pause”);
+        printf("%d\n", *(p+i));
+    system("pause");
     return 0;
 }
