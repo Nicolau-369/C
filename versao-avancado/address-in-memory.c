@@ -6,12 +6,12 @@ int max(int a, int b){
 int main(){
     int x,y,z;
     int (*p)(int,int);
-    printf(“Digite 2 numeros: ”);
+    printf("Enter 2 numbers: ");
     scanf(“%d %d”,&x,&y);
-    //ponteiro recebe endereco da função
+    //pointer receives function address
     p = max;
     z = p(x,y);
-    printf(“Maior = %d\n”,z);
-    system(“pause”);
+    printf("Bigger = %d\n",z);
+    system("pause");
     return 0;
 }
