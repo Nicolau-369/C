@@ -3,13 +3,13 @@
 int main(){
     int *p = 0x5DC;
     printf(“p = Hexadecimal: %p Decimal: %d \n”,p,p);
-    //Incrementa p em uma posição
+    //Increment p by one position
     p++;
     printf(“p = Hexadecimal: %p Decimal: %d \n”,p,p);
-    //Incrementa p em 15 posições
+    //Increment p by 15 positions
     p = p + 15;
     printf(“p = Hexadecimal: %p Decimal: %d \n”,p,p);
-    //Decrementa p em 2 posições
+    //Decrease p by 2 positions
     p = p - 2;
     printf(“p = Hexadecimal: %p Decimal: %d \n”,p,p);
     system(“pause”);
