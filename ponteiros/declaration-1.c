@@ -5,6 +5,6 @@ int main(){
     z = y * x;
     int *p;
     
-    system(“pause”);
+    system("pause");
     return 0;
 }
