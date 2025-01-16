@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
-typedef unsigned int positivos[5];
+typedef unsigned int positives[5];
 int main(){
-    positivos v;
+    positives v;
     int i;
     for (i = 0; i < 5; i++){
-        printf(“Digite o valor de v[%d]:”,i);
-        scanf(“%d”,&v[i]);
+        printf("Enter the value of v[%d]:",i);
+        scanf("%d",&v[i]);
     }
 
     for (i = 0; i < 5; i++)
-        printf(“Valor de v[%d]: %d\n”,i,v[i]);
+        printf("Value of v[%d]: %d\n",i,v[i]);
     
-    system(“pause”);
+    system("pause");
     return 0;
 }
