@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
-union tipo{
+union type{
     short int x;
     unsigned char c;
 };
 int main(){
-    union tipo t;
+    union type t;
     t.x = 1545;
-    printf(“x = %d\n”,t.x);
-    printf(“c = %d\n”,t.c);
+    printf("x = %d\n",t.x);
+    printf("c = %d\n",t.c);
     t.c = 69;
-    printf(“x = %d\n”,t.x);
-    printf(“c = %d\n”,t.c);
-    system(“pause”);
+    printf("x = %d\n",t.x);
+    printf("c = %d\n",t.c);
+    system("pause");
     return 0;
 }
